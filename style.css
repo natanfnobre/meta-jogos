@@ -1,0 +1,178 @@
+/* Importa uma fonte externa do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+/* Importa outra fonte externa com vários pesos */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fbfbfb;
+}
+
+.header {
+    padding: 20px;
+    box-shadow: 0px 1px 10px #0000001a;
+    background-color: #222529;
+}
+
+.logomarca {
+    width: 10vw;
+}
+
+.titulo {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #33303e;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.links-navegacao {
+    display: flex;
+    list-style-type: none;
+}
+
+.links-navegacao li a {
+    padding: 0;
+    margin: 16px;
+    color: #fbfbfb;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+li.cadastrar a {
+    padding: 8px;
+    margin: 0;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #d1a52a;
+}
+
+li.cadastrar a:hover {
+    font-size: 1.4rem;
+    padding: 10px 13px;
+    transition: 0.5s;
+}
+
+/* ====================== game-destaque */
+.game-destaque {
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque {
+    width: 500px;
+}
+
+.cta-primary {
+    padding: 12px 28px;
+    background-color: #85298f;
+    color: #f5f5f5;
+    font-weight: 700;
+    border-radius: 12px;
+    font-size: 20px;
+
+}
+
+.destaque img {
+    width: 500px;
+    border-radius: 30px;
+}
+
+.destaque-description {
+    width: 700px;
+}
+
+.destaque-description h1 {
+    font-size: 54px;
+}
+
+.destaque-description p {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+
+/* ================== games cards */
+.games-catalogo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.game {
+    width: 220px;
+}
+
+.img-game {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.game h4 {
+    font-size: 22px;
+}
+
+.game p {
+    font-size: 14px;
+    color: #222222;
+}
+
+.game button {
+    font-size: 14px;
+    /* Tamanho do texto */
+    font-family: 'Mochiy Pop One', sans-serif;
+    /* Fonte */
+    width: 220px;
+    /* Largura fixa */
+    padding: 15px 0;
+    /* Espaçamento interno */
+    background-color: #85298f;
+    /* Cor de fundo */
+    color: #f5f5f5;
+    /* Cor do texto */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    border: 1px solid #f5f5f5;
+    /* Borda */
+    cursor: pointer;
+    /* Cursor de clique */
+
+    display: flex;
+    /* Flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+
+    transition: transform 0.2s, background-color 0.2s;
+    /* Animação */
+}
